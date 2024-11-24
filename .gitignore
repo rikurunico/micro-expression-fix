@@ -17,13 +17,8 @@ __pycache__/
 
 # Ignore specific directories
 models/
-dataset/video_to_images/
-dataset/component_to_images/
-dataset/sub01/
-dataset/sub02/
-dataset/casme/
-dataset/casme_custom/
-dataset/casme_dua_terbaru/
+dataset/
+casme_dua_terbaru/
 preprocessing/__pycache__/
 feature_extraction/__pycache__/
 clasification/__pycache__/
@@ -45,6 +40,7 @@ output*
 *.png
 *.jpg
 *.avi
+*.zip
 
 # Ignore .joblib files
 *.joblib
