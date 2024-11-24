@@ -9,7 +9,7 @@ def format_number_and_round_numpy(number):
     if isinstance(number, np.int32) or isinstance(number, int):
         return np.int_(number)
     elif isinstance(number, float):
-        return np.float_(round(number, 3))
+        return np.float64(round(number, 3))
     else:
         raise ValueError("Invalid number type")
     
