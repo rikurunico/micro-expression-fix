@@ -1,3 +1,21 @@
+# Ignore compiled Python files
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter and IPython specific files
+.ipython/
+.jupyter/
+.local/share/jupyter/
+.ipynb_checkpoints/
+
+# Ignore npm logs
+.npm/_logs/
+
+# Ignore cache and temporary files
+.cache/
+.bash_history
+
+# Ignore specific directories
 models/
 dataset/video_to_images/
 dataset/component_to_images/
@@ -5,12 +23,28 @@ dataset/sub01/
 dataset/sub02/
 dataset/casme/
 dataset/casme_custom/
-dataset/casme_custom_from_one/
+dataset/casme_dua_terbaru/
 preprocessing/__pycache__/
 feature_extraction/__pycache__/
 clasification/__pycache__/
 helper/__pycache__/
+test-output/
+temp/
+hasil_test/
+aria/
+output-baru-tanpa-hidung/
+output-baru-dengan-hidung/
+gender_class/
+
+# Ignore output files
 output.csv
 output.xlsx
 output*
-test-output/
+
+# Ignore image files
+*.png
+*.jpg
+*.avi
+
+# Ignore .joblib files
+*.joblib
